@@ -155,12 +155,12 @@ export const EmployeeHireForm = () => {
             </fieldset>
             <fieldset>
                 <div className="form-group">
-                    <label htmlFor="payRate">Pay Rate:</label>
+                    <label htmlFor="payRate">Hourly Pay Rate:</label>
                     <input 
                         required autoFocus
                         type="number"
                         className="form-control"
-                        placeholder="Enter employee hourly pay rate."
+                        placeholder="Enter hourly pay rate."
                         value={employee.payRate}
                         onChange={
                             (event) => {

@@ -12,7 +12,10 @@ export const EmployeeNav = () => {
             <li className="navbar__item navbar__products">
                 <Link className="navbar__link" to="products">Products</Link>
             </li>
-            <li className="navbar__item navbar__products">
+            <li className="navbar__item navbar__customers">
+                <Link className="navbar__link" to="customers">Customers</Link>
+            </li>
+            <li className="navbar__item navbar__addNewEmployee">
                 <Link className="navbar__link" to="addnewemployee">Add New Employee</Link>
             </li>
             <li className="navbar__item navbar__logout">
