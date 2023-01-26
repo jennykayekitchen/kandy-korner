@@ -26,14 +26,14 @@ export const LocationList = () => {
 
     return <>
     {
-        <div className="locations">
+        <div className="locations" >
             <h2>Locations</h2>
             {
             locations.map(
                 (location) => {
-                    return <div className="location">
+                    return (<div className="location" key={location.id}>
                         {location.address} / {location.sqrfootage} sqr. feet
-                    </div>
+                    </div>)
                 }
             )
             }
